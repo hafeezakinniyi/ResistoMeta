@@ -1,6 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22144010.svg)](https://doi.org/10.5281/zenodo.22144010)
-[![GitHub Release](https://img.shields.io/github/v/release/hafeezakinniyi/ResistoMeta)](https://github.com/hafeezakinniyi/ResistoMeta/releases)
-[![License](https://img.shields.io/github/license/hafeezakinniyi/ResistoMeta)](https://github.com/hafeezakinniyi/ResistoMeta/blob/main/LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22144010.svg)](https://doi.org/10.5281/zenodo.22144010) [![GitHub Release](https://img.shields.io/github/v/release/hafeezakinniyi/ResistoMeta)](https://github.com/hafeezakinniyi/ResistoMeta/releases) [![License](https://img.shields.io/github/license/hafeezakinniyi/ResistoMeta)](https://github.com/hafeezakinniyi/ResistoMeta/blob/main/LICENSE)
 
 # ResistoMeta
 
@@ -38,7 +36,7 @@ The detailed workflow, configuration, module dependencies, and output reference 
 ## Main components
 
 | Module | Function | Main tools |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | 01 | Read QC and preprocessing | FastQC, fastp, MultiQC |
 | 02 | Host-read depletion | Bowtie2 |
 | 03 | Taxonomic profiling | Kraken2, Bracken |
@@ -193,9 +191,11 @@ The detailed output files and their purposes are documented in [`docs/OUTPUTS.md
 
 ## Citation
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+If you use ResistoMeta in your research, please cite the specific version of the software that you used:
 
-If ResistoMeta contributes to your research, please cite the version used in your analysis.
+> Akinniyi, H. T., Happi, C.T., & Happi, A.N. (2026). ResistoMeta: A modular and reproducible pipeline for metagenomic antimicrobial resistance characterization (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22144010
+
+For machine-readable citation metadata, see [`CITATION.cff`](CITATION.cff).
 
 ## License
 
