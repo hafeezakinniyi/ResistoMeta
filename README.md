@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22144010.svg)](https://doi.org/10.5281/zenodo.22144010)
+[![GitHub Release](https://img.shields.io/github/v/release/hafeezakinniyi/ResistoMeta)](https://github.com/hafeezakinniyi/ResistoMeta/releases)
+[![License](https://img.shields.io/github/license/hafeezakinniyi/ResistoMeta)](https://github.com/hafeezakinniyi/ResistoMeta/blob/main/LICENSE)
+
 # ResistoMeta
 
 **ResistoMeta** is a modular and reproducible workflow for **metagenomic antimicrobial resistance (AMR) characterization** from paired-end sequencing reads. It combines read-level and assembly-level approaches to profile taxonomy, antimicrobial resistance genes (ARGs), and plasmid replicons, followed by downstream analysis in R. ResistoMeta is designed as a general-purpose and extensible workflow for researchers investigating antimicrobial resistance and microbial communities in metagenomic datasets across diverse One Health, environmental, animal, and human-associated settings.
