@@ -1,17 +1,10 @@
 cff-version: 1.2.0
+date-released: 2026-08-28
 message: "If you use ResistoMeta in your research, please cite it as below."
-
+repository-code: "https://github.com/hafeezakinniyi/ResistoMeta"
 title: "ResistoMeta: A modular and reproducible pipeline for metagenomic antimicrobial resistance characterization"
 version: "1.0.0"
-type: software
-
-abstract: >
-  ResistoMeta is a modular and reproducible metagenomic antimicrobial
-  resistance analysis pipeline integrating quality control, host depletion,
-  taxonomic profiling, read-based antimicrobial resistance gene detection,
-  metagenome assembly, assembly quality assessment, contig-level resistance
-  annotation, plasmid replicon detection, and downstream resistome, taxonomy,
-  and plasmid analyses.
+doi: "10.5281/zenodo.22144010"
 
 authors:
   - family-names: "Akinniyi"
@@ -22,21 +15,3 @@ authors:
 
   - family-names: "Happi"
     given-names: "Anise"
-
-keywords:
-  - metagenomics
-  - antimicrobial resistance
-  - AMR
-  - resistome
-  - antimicrobial resistance genes
-  - ARGs
-  - taxonomic profiling
-  - plasmid
-  - bioinformatics
-  - pathogen surveillance
-
-license: "MIT"
-
-repository-code: "https://github.com/hafeezakinniyi/ResistoMeta"
-
-url: "https://github.com/hafeezakinniyi/ResistoMeta"
