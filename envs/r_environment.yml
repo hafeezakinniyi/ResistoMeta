@@ -1,0 +1,17 @@
+name: r_env
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - r-base=4.4
+
+  # Data manipulation
+  - r-dplyr
+  - r-tidyr
+  - r-stringr
+  - r-readr
+  - r-purrr
+  - r-tibble

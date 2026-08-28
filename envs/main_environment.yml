@@ -1,0 +1,29 @@
+name: main_env
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.11
+
+  # Quality control
+  - fastqc
+  - fastp
+  - multiqc
+
+  # Host depletion
+  - bowtie2
+
+  # Taxonomic profiling
+  - kraken2
+  - bracken
+
+  # Metagenome assembly
+  - megahit
+
+  # Assembly quality
+  - quast
+
+  # Contig annotation
+  - abricate
